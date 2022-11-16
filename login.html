@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
+    <div id = "background">
+        <div id  = "choiceContain">
+            <div id = "signUp">
+                <div>
+                    <h2>Sign Up</h2>
+                </div>
+                <div class = "email">
+                    <h4>Email</h4>
+                    <input type = "text">
+                </div>
+                <div class = "password">
+                    <h4>Password</h4>
+                    <input type = "text">
+                </div>
+                <div id = "signUpBtn"><strong>Sign Up</strong></div>
+            </div>
+
+            <div id = "login">
+                <div>
+                    <h2>Login</h2>
+                </div>
+                <div class = "email">
+                    <h4>Email</h4>
+                    <input type = "text">
+                </div>
+                <div class = "password">
+                    <h4>Password</h4>
+                    <input type = "text">
+                </div>
+                <div id = "loginBtn"><strong>Login</strong></div>
+                <div class = "orContain">
+                    <hr class = "line">
+                    <div class = "or">Or</div>
+                    <hr class = "line">
+                </div>
+                <div id = "continueAsGuestBtn"><strong>Continue As Guest</strong></div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="login.js"></script>
 </body>
 </html>

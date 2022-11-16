@@ -1,0 +1,136 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#background {
+    background-color:skyblue;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    font-family: 'Maven Pro';
+}
+
+#signUp {
+    background-color:white;
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    margin-right:50px;
+    height:30%;
+    padding:20px;
+    min-width:350px;
+    min-height:400px;
+}
+
+#login {
+    background-color:white;
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    height:40%;
+    padding:20px;
+    min-width:350px;
+    min-height:500px;
+}
+
+.email {
+    display:flex;
+    flex-direction:column;
+    margin-top:35px;
+
+}
+
+.password {
+    display:flex;
+    flex-direction:column;
+    margin-top:35px;
+}
+
+input {
+    height:25px;
+    padding:5px;
+}
+
+#signUpBtn {
+    margin-top:25px;
+    background-color:pink;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    width:100%;
+    text-align:center;
+    transition:text 1s;
+    transition:background-color 1s;
+}
+
+#signUpBtn:hover {
+    background-color:rgb(250,97,212);
+    color:rgb(237,238,242);
+}
+
+#loginBtn {
+    margin-top:25px;
+    background-color:pink;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    width:100%;
+    text-align:center;
+    transition:text 1s;
+    transition:background-color 1s;
+}
+
+#loginBtn:hover {
+    background-color:rgb(250,97,212);
+    color:rgb(237,238,242);
+}
+
+.orContain {
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.or {
+    border:black 1px solid;
+    padding:10px;
+    border-radius:10px;
+}
+
+.line {
+    width:50%;
+}
+
+#continueAsGuestBtn {
+    margin-top:25px;
+    background-color:pink;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    width:100%;
+    text-align:center;
+    transition:text 1s;
+    transition:background-color 1s;
+}
+
+#continueAsGuestBtn:hover {
+    background-color:rgb(250,97,212);
+    color:rgb(237,238,242);
+}
+
+#choiceContain {
+    display:flex;
+    flex-direction:row;
+    justify-content:top;
+}
