@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div id = "background">
+        <img src = "Images/My project.png" id = "logo">
+
+        <div id  = "info">
+            <div id = "deliveryAddress">
+                <h2>Delivery Address</h2>
+                <input type = "text">
+            </div>
+
+            <div id = "orderDetails">
+                <h2>Order Details</h2>
+                <hr>
+                <div id = "deliveryTime">
+                    <h4>Delivery Time</h4>
+                    <input type = "text">
+                </div>
+                <div id = "cardNumber">
+                    <h4>Card Number</h4>
+                    <input type = "text">
+                </div>
+                <div id = "coupon">
+                    <h4>Coupon</h4>
+                    <input type = "text">
+                </div>
+            </div>
+
+            <div id = "tips">
+                <h2>Tips</h2>
+                <hr>
+                <div id = "tipsContain">
+                    <h3>Driver Tip: <span>$0.00</span></h3>
+                    <div id = "tipBtnContain">
+                        <div class = "tipBtn tipBtn15">15%</div>
+                        <div class = "tipBtn tipBtn20">20%</div>
+                        <div class = "tipBtn tipBtn25">25%</div>
+                        <div class = "tipBtn tipBtnCustom">Custom</div>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+            </div>
+
+            <div id = "finalPrice">
+                <h3>Final Price: <span>$0.00</span></h3>
+            </div>
+
+            <div id="placeOrder">Place Order</div>
+        </div>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>
