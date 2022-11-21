@@ -26,7 +26,7 @@
     height:30%;
     padding:20px;
     min-width:350px;
-    min-height:400px;
+    min-height:500px;
 }
 
 #login {
@@ -138,4 +138,21 @@ input {
 #logo {
     height:300px;
     width:300px;
+}
+
+#deleteAccBtn {
+    margin-top:25px;
+    background-color:pink;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    width:100%;
+    text-align:center;
+    transition:text 1s;
+    transition:background-color 1s;
+}
+
+#deleteAccBtn:hover {
+    background-color:rgb(250,97,212);
+    color:rgb(237,238,242);
 }
