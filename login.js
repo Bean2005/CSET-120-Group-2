@@ -6,3 +6,11 @@ function goToMenu(id){
         alert("Please fill out both fields");
     }
 }
+
+function deleteAcc(){
+    alert("Account successfully deleted");
+}
+
+function gMenu(){
+    window.location.replace("./gMenu.html");
+}
