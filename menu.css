@@ -1,5 +1,7 @@
 body{
     background-color: skyblue ;
+    font-family: 'Maven Pro';
+    flex: content;
 }
 
 * {box-sizing:border-box}
@@ -40,6 +42,11 @@ body{
   right: 0;
   border-radius: 4px 0 0 4px;
 }
+.title{
+text-align: center;
+color: white;
+text-decoration:underline pink;
+}
 
 
 .Back:hover, .forward:hover {
@@ -48,13 +55,15 @@ body{
 
 
 .Info {
-  color: black;
-  font-size: 16px;
-  padding: 10px 14px;
+  outline-color: pink;
+  color: yellow;
+  font-size: 24px;
+  padding: 10px 10px;
   position: absolute;
   bottom: 10px;
   width: 100%;
   text-align: center;
+  
 }
 
 
@@ -102,4 +111,49 @@ body{
 .images{
     border:5px solid pink;
     border-radius: 10px;
+}
+button{
+ background-color: pink;
+ float: right;
+ font-size: 15px;
+}
+.DrinkHeader{
+  text-align: center;
+  color: pink;
+  text-decoration: underline white;
+}
+.Drinks{
+text-align: left;
+float: left;
+color: white;
+font-size: 24px;
+background-color: skyblue;
+border:5px solid pink;
+margin-top: 20px;
+margin-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+text-decoration: underline pink;
+border-radius: 10px;
+}
+.FoodHeader{
+  text-align: center;
+  color: pink;
+  text-decoration: underline white;
+}
+.Food{
+text-align: left;
+float: right;
+color: white;
+font-size: 24px;
+background-color: skyblue;
+border:5px solid pink;
+padding-left: 50px;
+margin-top: 20px;
+margin-right: 40px;
+padding-right: 50px;
+padding-bottom: 50px;
+text-decoration: underline pink;
+border-radius: 10px;
 }
