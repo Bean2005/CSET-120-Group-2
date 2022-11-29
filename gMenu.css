@@ -1,105 +1,159 @@
 body{
-    background-color: skyblue ;
+  background-color: skyblue ;
+  font-family: 'Maven Pro';
+  flex: content;
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+max-width: 1000px;
+position: relative;
+margin: auto;
 }
 
 /* Make the images invisible by default */
 .Containers {
-  display: none;
+display: none;
 }
 
 /* forward & Back buttons */
 .Back, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: pink;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
+cursor: pointer;
+position: absolute;
+top: 48%;
+width: auto;
+margin-top: -23px;
+padding: 17px;
+color: pink;
+font-weight: bold;
+font-size: 19px;
+transition: 0.4s ease;
+border-radius: 0 5px 5px 0;
+user-select: none;
 }
 .Back{
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .forward {
-  margin-right: 5px;
-  right: 0;
-  border-radius: 4px 0 0 4px;
+margin-right: 5px;
+right: 0;
+border-radius: 4px 0 0 4px;
+}
+.title{
+text-align: center;
+color: white;
+text-decoration:underline pink;
 }
 
 
 .Back:hover, .forward:hover {
-  background-color:white;
+background-color:white;
 }
 
 
 .Info {
-  color: black;
-  font-size: 16px;
-  padding: 10px 14px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
+outline-color: pink;
+color: yellow;
+font-size: 24px;
+padding: 10px 10px;
+position: absolute;
+bottom: 10px;
+width: 100%;
+text-align: center;
+
 }
 
 
 .MessageInfo {
-  color: #f2f2f3;
-  font-size: 14px;
-  padding: 10px 14px;
-  position: absolute;
-  top: 0;
+color: #f2f2f3;
+font-size: 14px;
+padding: 10px 14px;
+position: absolute;
+top: 0;
 }
 
 
 .dots {
-  cursor: pointer;
-  height: 16px;
-  width: 16px;
-  margin: 0 3px;
-  background-color: #acc;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s ease;
+cursor: pointer;
+height: 16px;
+width: 16px;
+margin: 0 3px;
+background-color: #acc;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.5s ease;
 }
 
 .enable, .dots:hover {
-  background-color: pink;
+background-color: pink;
 }
 
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
-  animation-name: fade;
-  animation-duration: 1.4s;
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.4s;
+animation-name: fade;
+animation-duration: 1.4s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
+from {opacity: .5}
+to {opacity: 2}
 }
 
 @keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
+from {opacity: .5}
+to {opacity: 2}
 }
 .images{
-    border:5px solid pink;
-    border-radius: 10px;
+  border:5px solid pink;
+  border-radius: 10px;
+}
+button{
+background-color: pink;
+float: right;
+font-size: 15px;
+}
+.DrinkHeader{
+text-align: center;
+color: pink;
+text-decoration: underline white;
+}
+.Drinks{
+text-align: left;
+float: left;
+color: white;
+font-size: 24px;
+background-color: skyblue;
+border:5px solid pink;
+margin-top: 20px;
+margin-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+text-decoration: underline pink;
+border-radius: 10px;
+}
+.FoodHeader{
+text-align: center;
+color: pink;
+text-decoration: underline white;
+}
+.Food{
+text-align: left;
+float: right;
+color: white;
+font-size: 24px;
+background-color: skyblue;
+border:5px solid pink;
+padding-left: 50px;
+margin-top: 20px;
+margin-right: 40px;
+padding-right: 50px;
+padding-bottom: 50px;
+text-decoration: underline pink;
+border-radius: 10px;
 }
