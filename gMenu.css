@@ -125,10 +125,10 @@ text-decoration: underline white;
 .Drinks{
 text-align: left;
 float: left;
-color: white;
+color: black;
 font-size: 24px;
-background-color: skyblue;
-border:5px solid pink;
+background-color: white;
+border:5px solid black;
 margin-top: 20px;
 margin-left: 40px;
 padding-left: 50px;
@@ -136,6 +136,7 @@ padding-right: 50px;
 padding-bottom: 50px;
 text-decoration: underline pink;
 border-radius: 10px;
+width:47%;
 }
 .FoodHeader{
 text-align: center;
@@ -145,10 +146,10 @@ text-decoration: underline white;
 .Food{
 text-align: left;
 float: right;
-color: white;
+color: black;
 font-size: 24px;
-background-color: skyblue;
-border:5px solid pink;
+background-color: white;
+border:5px solid black;
 padding-left: 50px;
 margin-top: 20px;
 margin-right: 40px;
@@ -156,4 +157,5 @@ padding-right: 50px;
 padding-bottom: 50px;
 text-decoration: underline pink;
 border-radius: 10px;
+width:47%;
 }

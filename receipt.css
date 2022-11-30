@@ -1,0 +1,51 @@
+#background {
+    background-color:skyblue;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    font-family: 'Maven Pro';
+}
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+#logo {
+    height:200px;
+    width:200px;
+}
+#holder{
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 500px;
+    height: 500px;
+}
+h1{
+    border-bottom: pink 2px solid;
+    display: flex;
+    justify-content: center;
+}
+#btnhold{
+    width: 100%;
+}
+#btn1{
+    color: white;
+    border: color 2px pink;
+    border: 50px;
+    border-top: 50px;
+    border-bottom: 50px;
+    background-color: pink;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.btnholder{
+    
+}
