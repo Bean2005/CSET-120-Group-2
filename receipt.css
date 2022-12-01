@@ -24,6 +24,7 @@
     padding-right: 100px;
     width: 500px;
     height: 500px;
+    border-radius: 10px;
 }
 h1{
     border-bottom: pink 2px solid;
@@ -31,15 +32,13 @@ h1{
     justify-content: center;
 }
 #btnhold{
-    width: 100%;
+   
 }
 #btn1{
     color: white;
-    border: color 2px pink;
-    border: 50px;
-    border-top: 50px;
-    border-bottom: 50px;
     background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -47,5 +46,10 @@ h1{
     flex-direction: row;
 }
 .btnholder{
-    
+    display: flex;
+     width: 100%;
+    height: 300px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
