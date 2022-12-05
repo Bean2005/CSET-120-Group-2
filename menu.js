@@ -60,7 +60,7 @@ function addToCart(x){
   if(!cart.includes(x)){
     console.log(allItems.get(x));
     let child = document.createElement("li");
-    child.innerHTML = x + " " + allItems.get(x);
+    child.innerHTML = "<span>" + x  + "</span><input type='number' class='q' min='0'>" + " <span>" + allItems.get(x) + "<span>";
     document.getElementById("cart").appendChild(child);
     cart.push(x);
   }
