@@ -130,7 +130,6 @@ font-size: 24px;
 background-color: white;
 border:5px solid black;
 margin-top: 20px;
-margin-left: 40px;
 padding-left: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
@@ -152,10 +151,62 @@ background-color: white;
 border:5px solid black;
 padding-left: 50px;
 margin-top: 20px;
-margin-right: 40px;
 padding-right: 50px;
 padding-bottom: 50px;
 text-decoration: underline pink;
 border-radius: 10px;
 width:47%;
+}
+.SauseHeader{
+text-align: center;
+color: pink;
+text-decoration: underline white;
+}
+.Sause{
+text-align: left;
+color: black;
+font-size: 24px;
+background-color: white;
+border:5px solid black;
+padding-left: 50px;
+margin-top: 20px;
+
+padding-right: 50px;
+padding-bottom: 50px;
+text-decoration: underline pink;
+border-radius: 10px;
+width:47%;
+float: right;
+}
+.CheckoutHeader{
+text-align: center;
+color: pink;
+text-decoration: underline white;
+}
+.Checkout{
+text-align: left;
+color: black;
+font-size: 24px;
+background-color: white;
+border:5px solid black;
+padding-left: 50px;
+margin-top: 20px;
+margin-bottom: 30px;
+padding-right: 50px;
+padding-bottom: 50px;
+text-decoration: underline pink;
+border-radius: 10px;
+width:47%;
+float: left;
+padding-bottom: 135px;
+
+}
+.DrD{
+float: right;
+padding-top: 25px;
+margin-right: 10px;
+}
+.DrDI{
+
+float: left;
 }
