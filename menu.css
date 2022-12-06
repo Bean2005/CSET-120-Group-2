@@ -212,14 +212,15 @@ width:47%;
 
 .q{
   width:40px;
-  margin-left:35px;
 }
+
 .order{
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
 #order2{
   background-color: pink;
   border-radius: 3px;
@@ -228,6 +229,13 @@ width:47%;
   color: white;
   text-decoration: none;
 }
+
 #pink{
   text-decoration: underline pink;
+}
+
+.cartLi{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
 }
