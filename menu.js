@@ -64,7 +64,7 @@ for(let j = 0; j<buttons.length;j++){
 function addToCart(x,y){
   if(!cart.includes(x)){
     let child = document.createElement("li");
-    child.innerHTML = "<span>" + x  + "</span><input type='number' class='q' min='0' value='1' onchange='changePrice(this.value, this.parentElement.firstElementChild.innerHTML, this)'>" + " <span>" + dollarUS.format(allItems.get(x)) + "<span>";
+    child.innerHTML = "<span>" + x  + "</span><input type='number' class='q' min='1' value='1' onchange='changePrice(this.value, this.parentElement.firstElementChild.innerHTML, this)'>" + " <span>" + dollarUS.format(allItems.get(x)) + "<span>";
     child.classList.add("cartLi");
     document.getElementById("cart").appendChild(child);
     cart.push(x);
