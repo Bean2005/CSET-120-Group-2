@@ -156,3 +156,18 @@ input {
     background-color:rgb(250,97,212);
     color:rgb(237,238,242);
 }
+.coop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: pink;
+    
+}
+#hold1{
+    border-color: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
