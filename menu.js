@@ -20,7 +20,12 @@ const allItems = new Map([
   ["MaYO:", 0.99],
   ["Mustard:", 0.99]
 ]);
-let cart = ["temp"];
+let cart = [];
+
+let dollarUS = Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+});
 
 var slidePosition = 1;
 SlideShow(slidePosition);
@@ -53,15 +58,31 @@ function SlideShow(n) {
 
 let buttons = document.getElementsByTagName("button");
 for(let j = 0; j<buttons.length;j++){
-  buttons[j].onclick = function(){addToCart(this.parentElement.firstElementChild.innerHTML);}
+  buttons[j].onclick = function(){addToCart(this.parentElement.firstElementChild.innerHTML, this);}
 }
 
-function addToCart(x){
+function addToCart(x,y){
   if(!cart.includes(x)){
-    console.log(allItems.get(x));
     let child = document.createElement("li");
-    child.innerHTML = "<span>" + x  + "</span><input type='number' class='q' min='0'>" + " <span>" + allItems.get(x) + "<span>";
+    child.innerHTML = "<span>" + x  + "</span><input type='number' class='q' min='0' value='1' onchange='changePrice(this.value, this.parentElement.firstElementChild.innerHTML, this)'>" + " <span>" + dollarUS.format(allItems.get(x)) + "<span>";
+    child.classList.add("cartLi");
     document.getElementById("cart").appendChild(child);
     cart.push(x);
+    y.innerHTML = "Remove from Cart";
+  }else{
+    let delNum;
+    for(let k = 0; k<cart.length;k++){
+      if(cart[k] == x){
+        delNum = k;
+        cart = cart.slice(0,k).concat(cart.slice(k+1));
+        break;
+      }
+    }
+    document.getElementById("cart").children[delNum].remove();
+    y.innerHTML = "Add to Cart";
   }
+}
+
+function changePrice(x,y,z){
+  z.parentElement.children[2].innerHTML = dollarUS.format(allItems.get(y)*x);
 }
